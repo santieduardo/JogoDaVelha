@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A02E1CC51AA0F0880005D1AC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A02E1CC41AA0F0880005D1AC /* logo.png */; };
 		A07341C01AA0D3B200824134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A07341BF1AA0D3B200824134 /* main.m */; };
 		A07341C31AA0D3B200824134 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A07341C21AA0D3B200824134 /* AppDelegate.m */; };
 		A07341C61AA0D3B200824134 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07341C51AA0D3B200824134 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A02E1CC41AA0F0880005D1AC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../Desktop/logo.png; sourceTree = "<group>"; };
 		A07341BA1AA0D3B200824134 /* Jogo da Velha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jogo da Velha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07341BE1AA0D3B200824134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A07341BF1AA0D3B200824134 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		A07341B11AA0D3B200824134 = {
 			isa = PBXGroup;
 			children = (
+				A02E1CC41AA0F0880005D1AC /* logo.png */,
 				A07341BC1AA0D3B200824134 /* JogoDaVelha */,
 				A07341D61AA0D3B200824134 /* JogoDaVelhaTests */,
 				A07341BB1AA0D3B200824134 /* Products */,
@@ -200,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02E1CC51AA0F0880005D1AC /* logo.png in Resources */,
 				A07341C91AA0D3B200824134 /* Main.storyboard in Resources */,
 				A07341CE1AA0D3B200824134 /* LaunchScreen.xib in Resources */,
 				A07341CB1AA0D3B200824134 /* Images.xcassets in Resources */,
