@@ -21,6 +21,9 @@
                                 <state key="normal" title="Entrar">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Se4-lj-fnB" kind="show" identifier="segueEntrar" id="hYj-H1-GX7"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insira seu nome" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qXp-I9-Myv">
                                 <rect key="frame" x="85" y="196" width="204" height="30"/>
@@ -28,13 +31,32 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.63156960227272729" blue="0.072313642064000941" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="513.5" y="308.5"/>
+            <point key="canvasLocation" x="61.5" y="83.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Iaw-nc-dMe">
+            <objects>
+                <viewController modalTransitionStyle="partialCurl" id="Se4-lj-fnB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E2K-yp-ZBS"/>
+                        <viewControllerLayoutGuide type="bottom" id="RGB-QP-ADE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KJG-Qb-QiA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.69468759518134315" blue="0.5284168156835688" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Daj-pD-fQc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="670.5" y="83.5"/>
         </scene>
     </scenes>
 </document>
