@@ -27,7 +27,42 @@
 }
 
 - (IBAction)btnEnviar:(id)sender {
-    NSLog(@"%@", _txtNome.text);
-    NSLog(@"%@", _txtEmail.text);
+    if ([self verificarDados]) {
+        
+    }
+}
+
+- (BOOL)verificarDados{
+    if([_txtNome.text length] < 3 ){
+        UIAlertView *alertaNome = [[UIAlertView alloc]
+                                   initWithTitle:@"Ops!"
+                                   message:@"O nome precisa ter mais que dois caracteres"
+                                   delegate:self
+                                   cancelButtonTitle:@"OK"
+                                   otherButtonTitles:nil, nil];
+        
+        [alertaNome show];
+        return NO;
+    }else if([_txtEmail.text length] < 3 ){
+        UIAlertView *alertaEmail = [[UIAlertView alloc]
+                                    initWithTitle:@"Ops!"
+                                    message:@"O e-mail precisa ter mais que dois caracteres"
+                                    delegate:self
+                                    cancelButtonTitle:@"OK"
+                                    otherButtonTitles:nil, nil];
+        
+        [alertaEmail show];
+        return NO;
+    } else {
+        UIAlertView *alertaOK = [[UIAlertView alloc]
+                                 initWithTitle:@"Obrigado"
+                                 message:@"Seus dados foram aceitos"
+                                 delegate:self
+                                 cancelButtonTitle:@"OK"
+                                 otherButtonTitles:nil, nil];
+        
+        [alertaOK show];
+        return YES;
+    }
 }
 @end
