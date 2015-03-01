@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *txtNome;
+@property (weak, nonatomic) IBOutlet UITextField *txtEmail;
+- (IBAction)btnEnviar:(id)sender;
+
 
 @end
 
