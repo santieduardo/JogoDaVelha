@@ -1,19 +1,19 @@
 //
-//  JogoDaVelhaTests.m
-//  JogoDaVelhaTests
+//  Jogo_da_VelhaTests.m
+//  Jogo da VelhaTests
 //
-//  Created by Eduardo Santi on 27/02/15.
+//  Created by Eduardo Santi on 28/02/15.
 //  Copyright (c) 2015 Eduardo Santi. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface JogoDaVelhaTests : XCTestCase
+@interface Jogo_da_VelhaTests : XCTestCase
 
 @end
 
-@implementation JogoDaVelhaTests
+@implementation Jogo_da_VelhaTests
 
 - (void)setUp {
     [super setUp];

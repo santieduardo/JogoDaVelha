@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  JogoDaVelha
+//  Jogo da Velha
 //
-//  Created by Eduardo Santi on 27/02/15.
+//  Created by Eduardo Santi on 28/02/15.
 //  Copyright (c) 2015 Eduardo Santi. All rights reserved.
 //
 

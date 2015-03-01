@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>06A16BF5-C027-4ADE-B09A-07F79C42C211</string>
+	<string>A941A725-F5E8-4D8B-879C-2DFE2DF742C4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>JogoDaVelha</string>
+	<string>Jogo da Velha</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>646C077D68961514AB2ECCBDFE2A5800A31C5F11</key>
 		<string>https://github.com/santieduardo/JogoDaVelha.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>JogoDaVelha/JogoDaVelha.xcodeproj</string>
+	<string>Jogo da Velha/Jogo da Velha.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>646C077D68961514AB2ECCBDFE2A5800A31C5F11</key>

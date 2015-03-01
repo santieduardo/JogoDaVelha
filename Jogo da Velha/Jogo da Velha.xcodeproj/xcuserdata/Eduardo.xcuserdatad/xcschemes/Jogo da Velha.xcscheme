@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A07341B91AA0D3B200824134"
+               BlueprintIdentifier = "A01CF0DB1AA2B3E200E1CE49"
                BuildableName = "Jogo da Velha.app"
-               BlueprintName = "JogoDaVelha"
-               ReferencedContainer = "container:JogoDaVelha.xcodeproj">
+               BlueprintName = "Jogo da Velha"
+               ReferencedContainer = "container:Jogo da Velha.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A07341D21AA0D3B200824134"
-               BuildableName = "JogoDaVelhaTests.xctest"
-               BlueprintName = "JogoDaVelhaTests"
-               ReferencedContainer = "container:JogoDaVelha.xcodeproj">
+               BlueprintIdentifier = "A01CF0F41AA2B3E200E1CE49"
+               BuildableName = "Jogo da VelhaTests.xctest"
+               BlueprintName = "Jogo da VelhaTests"
+               ReferencedContainer = "container:Jogo da Velha.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A07341D21AA0D3B200824134"
-               BuildableName = "JogoDaVelhaTests.xctest"
-               BlueprintName = "JogoDaVelhaTests"
-               ReferencedContainer = "container:JogoDaVelha.xcodeproj">
+               BlueprintIdentifier = "A01CF0F41AA2B3E200E1CE49"
+               BuildableName = "Jogo da VelhaTests.xctest"
+               BlueprintName = "Jogo da VelhaTests"
+               ReferencedContainer = "container:Jogo da Velha.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A07341B91AA0D3B200824134"
+            BlueprintIdentifier = "A01CF0DB1AA2B3E200E1CE49"
             BuildableName = "Jogo da Velha.app"
-            BlueprintName = "JogoDaVelha"
-            ReferencedContainer = "container:JogoDaVelha.xcodeproj">
+            BlueprintName = "Jogo da Velha"
+            ReferencedContainer = "container:Jogo da Velha.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A07341B91AA0D3B200824134"
+            BlueprintIdentifier = "A01CF0DB1AA2B3E200E1CE49"
             BuildableName = "Jogo da Velha.app"
-            BlueprintName = "JogoDaVelha"
-            ReferencedContainer = "container:JogoDaVelha.xcodeproj">
+            BlueprintName = "Jogo da Velha"
+            ReferencedContainer = "container:Jogo da Velha.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A07341B91AA0D3B200824134"
+            BlueprintIdentifier = "A01CF0DB1AA2B3E200E1CE49"
             BuildableName = "Jogo da Velha.app"
-            BlueprintName = "JogoDaVelha"
-            ReferencedContainer = "container:JogoDaVelha.xcodeproj">
+            BlueprintName = "Jogo da Velha"
+            ReferencedContainer = "container:Jogo da Velha.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

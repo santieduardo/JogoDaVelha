@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>JogoDaVelha.xcscheme</key>
+		<key>Jogo da Velha.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A07341B91AA0D3B200824134</key>
+		<key>A01CF0DB1AA2B3E200E1CE49</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A07341D21AA0D3B200824134</key>
+		<key>A01CF0F41AA2B3E200E1CE49</key>
 		<dict>
 			<key>primary</key>
 			<true/>
