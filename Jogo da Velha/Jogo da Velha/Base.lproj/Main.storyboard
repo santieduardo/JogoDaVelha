@@ -27,7 +27,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Insira seu e-mail" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fls-ng-vdm">
                                 <rect key="frame" x="68" y="346" width="238" height="30"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xoL-Vp-4za">
                                 <rect key="frame" x="164" y="397" width="46" height="30"/>
@@ -36,6 +36,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnEnviar:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0mA-NF-Utw"/>
+                                    <segue destination="9SV-5m-dIc" kind="show" identifier="segueEnviarDados" id="Akz-G4-3w1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -50,6 +51,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-130.5" y="207.5"/>
+        </scene>
+        <!--Dados View Controller-->
+        <scene sceneID="Y1E-vP-dxW">
+            <objects>
+                <viewController id="9SV-5m-dIc" customClass="DadosViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eQP-Qc-y04"/>
+                        <viewControllerLayoutGuide type="bottom" id="jWw-pX-YKn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vet-EV-Bto">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9o-lK-N0o">
+                                <rect key="frame" x="16" y="187" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAj-xI-ZI4">
+                                <rect key="frame" x="16" y="263" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="dadoEmail" destination="QAj-xI-ZI4" id="hDv-5P-Y0g"/>
+                        <outlet property="dadoNome" destination="h9o-lK-N0o" id="TTF-pg-IXg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YOb-32-E6n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="313.5" y="207.5"/>
         </scene>
     </scenes>
     <resources>

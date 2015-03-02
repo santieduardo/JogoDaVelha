@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A007B6B41AA3E8880048A80E /* DadosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A007B6B31AA3E8880048A80E /* DadosViewController.m */; };
 		A01CF0E21AA2B3E200E1CE49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A01CF0E11AA2B3E200E1CE49 /* main.m */; };
 		A01CF0E51AA2B3E200E1CE49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A01CF0E41AA2B3E200E1CE49 /* AppDelegate.m */; };
 		A01CF0E81AA2B3E200E1CE49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01CF0E71AA2B3E200E1CE49 /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A007B6B21AA3E8880048A80E /* DadosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DadosViewController.h; sourceTree = "<group>"; };
+		A007B6B31AA3E8880048A80E /* DadosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DadosViewController.m; sourceTree = "<group>"; };
 		A01CF0DC1AA2B3E200E1CE49 /* Jogo da Velha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jogo da Velha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01CF0E01AA2B3E200E1CE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A01CF0E11AA2B3E200E1CE49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 				A01CF0E71AA2B3E200E1CE49 /* ViewController.m */,
 				A01CF0E91AA2B3E200E1CE49 /* Main.storyboard */,
 				A01CF0EC1AA2B3E200E1CE49 /* Images.xcassets */,
+				A007B6B21AA3E8880048A80E /* DadosViewController.h */,
+				A007B6B31AA3E8880048A80E /* DadosViewController.m */,
 				A01CF0EE1AA2B3E200E1CE49 /* LaunchScreen.xib */,
 				A01CF0DF1AA2B3E200E1CE49 /* Supporting Files */,
 			);
@@ -225,6 +230,7 @@
 			files = (
 				A01CF0E81AA2B3E200E1CE49 /* ViewController.m in Sources */,
 				A01CF0E51AA2B3E200E1CE49 /* AppDelegate.m in Sources */,
+				A007B6B41AA3E8880048A80E /* DadosViewController.m in Sources */,
 				A01CF0E21AA2B3E200E1CE49 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

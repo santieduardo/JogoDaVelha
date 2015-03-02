@@ -26,6 +26,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
+    if ([segue.identifier isEqualToString:@"segueEnviarDados"])
+    {
+        DadosViewController *dados = (DadosViewController *)segue.destinationViewController;
+        
+        dados.strNome = _txtNome.text;
+        dados.strEmail = _txtEmail.text;
+        
+    }
+    
+}
+
+
 - (IBAction)btnEnviar:(id)sender {
     if ([self verificarDados]) {
         
