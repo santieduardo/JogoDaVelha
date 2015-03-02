@@ -44,6 +44,8 @@
 - (IBAction)btnEnviar:(id)sender {
     if ([self verificarDados]) {
         
+        [self performSegueWithIdentifier:@"segueEnviarDados" sender:sender];
+        
     }
 }
 
